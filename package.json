@@ -1,13 +1,18 @@
 {
   "name": "qiyun-el-modal",
+  "description": "奇云业务基于element-ui组件抽取",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "athena0304 <athena0304@gmail.com>",
+  "license": "MIT",
+  "main": "dist/qiyun-el-modal.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "element-ui": "^2.4.5",
     "vue": "^2.5.17"
   },
   "devDependencies": {
@@ -15,8 +20,10 @@
     "@vue/cli-plugin-eslint": "^3.1.1",
     "@vue/cli-service": "^3.1.1",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
+    "vue-cli-plugin-element": "^1.0.0",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
