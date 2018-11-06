@@ -1,10 +1,10 @@
-import qeModal from './packages/qe-modal'
+import qeModal from './qe-modal'
 
 const components = [
   qeModal
 ]
 
-const install = function(Vue, opts = {}) {
+const install = function(Vue) {
   components.forEach(component => {
     Vue.component(component.name, component);
   });
@@ -14,9 +14,7 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-module.exports = {
+export default {
   install,
   qeModal
 }
-
-module.exports.default = module.exports;

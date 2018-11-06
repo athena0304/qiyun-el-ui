@@ -20,18 +20,15 @@
         </template>
       </qe-modal>
     </div>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import qeModal from './packages/qe-modal/src/qe-modal.vue'
+import qeModal from '../packages/qe-modal/src/qe-modal.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     qeModal
   },
   data () {

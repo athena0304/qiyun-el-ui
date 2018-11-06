@@ -5,11 +5,12 @@
   "private": false,
   "author": "athena0304 <athena0304@gmail.com>",
   "license": "MIT",
-  "main": "dist/qiyun-el-modal.js",
+  "main": "lib/qiyun-el-ui.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name qiyun-el-ui --dest lib ./packages/index.js"
   },
   "dependencies": {
     "element-ui": "^2.4.5",
@@ -24,7 +25,8 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "vue-cli-plugin-element": "^1.0.0",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "webpack-chain": "^5.0.1"
   },
   "eslintConfig": {
     "root": true,
@@ -49,5 +51,18 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:athena0304/qiyun-el-ui.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "vue",
+    "element-ui",
+    "modal"
   ]
 }
