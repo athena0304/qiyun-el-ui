@@ -1,7 +1,7 @@
 {
   "name": "qiyun-el-ui",
   "description": "奇云业务基于element-ui组件抽取",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "private": false,
   "author": "athena0304 <athena0304@gmail.com>",
   "license": "MIT",
