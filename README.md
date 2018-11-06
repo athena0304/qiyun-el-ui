@@ -1,31 +1,33 @@
 # qiyun-el-ui
 based on element-ui
-# qiyun-el-modal
+奇云业务基于element-ui组件抽取
 
-## Project setup
+including:
+- qe-modal
+
+## Install
+```shell
+npm install qiyun-el-ui -S
 ```
-yarn install
+## Quick Start
+``` javascript
+import Vue from 'vue'
+import Element from 'element-ui'
+import QiyunElUI from 'qiyun-el-ui'
+
+Vue.use(Element)
+Vue.use(QiyunElUI)
+
+// or
+import {
+  QeModal
+} from 'qiyun-el-ui'
+
+Vue.component(QeModal.name, QeModal)
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Browser Support
+Modern browsers and Internet Explorer 10+.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## LICENSE
+[MIT](LICENSE)
